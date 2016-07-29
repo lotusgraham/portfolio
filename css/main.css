@@ -70,6 +70,10 @@ header{
   width: 13rem;
 }
 
+.describe{
+  margin-top:4px;
+  margin-bottom: 4rem;
+}
 /*.projects img {
   margin: 2rem;
 }*/
