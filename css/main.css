@@ -1,8 +1,16 @@
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,700|Roboto:400,900);
 /*body{
   background-image: url("http://totalwallcovering.com/images/product/paisley-damask-wallpaper-rglt-l.jpg")
 }*/
+
+body{
+  font-family: 'Roboto';
+  font-size: 19px;
+  line-height: 1.7;
+  color:rgb(95, 88, 88);
+
+}
 
 a:link {
     color: darkorange;
@@ -26,11 +34,12 @@ a:active {
 }
 
 header{
+
   margin-bottom: 6rem;
   display: flex;
   flex-direction: row;
   background-color: white;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 
 }
@@ -38,82 +47,130 @@ header{
 .projects {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .copy{
-  margin-top: 6rem;
+  margin-top: 1rem;
   font-family: 'Roboto';
   font-weight: 400;
-  font-size: 15px;
   margin-right: 3rem;
   line-height: 170%;
+
 }
 
 .headertext {
     margin-top: 2rem;
     margin-bottom: 3rem;
     margin-left: 4rem;
+    flex:1;
 }
 
 .title{
-     font-family: 'Roboto';
-     font-size: 7vmin;
+     font-family: 'Cabin';
+     font-size: 3rem;
      line-height: 200%;
-     font-weight: 900;
+     font-weight: 700;
+     color: rgb(9,9,9);
 }
 
-.invisiblock{
+.subtitle {
+  font-family: 'Cabin';
+  font-weight: 400;
+  font-size:26px;
+}
+
+/*.invisiblock{
   background-color: white;
   height:11px;
   width: 13rem;
-}
+}*/
 
 .describe{
+  font-family: 'Cabin';
   margin-top:4px;
-  margin-bottom: 4rem;
+  font-size: 20px;
 }
 /*.projects img {
   margin: 2rem;
 }*/
 
-.subtitle {
-    font-family: 'Roboto';
-    font-size: 20px;
+.tech{
+  font-size: 19px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.flip {
+    height: 240px;
+    width: 300px;
+}
+.flip img {
+    width: 300px;
+    height: auto;
+}
+.flip .back {
+    background: tomato;
+    color: #fff;
+    text-align: center;
+}
+
+.flipa {
+    height: 240px;
+    width: 300px;
+}
+.flipa img {
+    width: 300px;
+    height: auto;
+}
+.flipa .back {
+    background: tomato;
+    color: #fff;
+    text-align: center;
+}
+
+.flipb {
+    height: 240px;
+    width: 300px;
+}
+.flipb img {
+    width: 300px;
+    height: auto;
+}
+.flipb .back {
+    background: tomato;
+    color: #fff;
+    text-align: center;
 }
 
 
 .wrapper{
-    margin: 10%;
-    width: 80%;
-    height: 50rem;
+  margin-top: 10rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
 }
 
-.avatarbox{
-  height: 250px;
-}
 
 p {
   font-family: 'Roboto';
 }
 .myface {
-    width: 30vmin;
-    height: 30vmin;
-    border-radius: 15vmin;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-bottom: 5rem;
 }
 
-body{
-  margin-top: 10rem;
-}
 
 .contacts {
   margin-top: 5rem;
   margin-bottom: 20rem;
-  font-family: 'Roboto';
   font-weight: 400;
-  font-size: 15px;
   line-height: 175%;
+
 }
 
 /*@media only screen and (max-width: 901px)
@@ -129,15 +186,49 @@ body{
     }
 }*/
 
-@media only screen and (max-width: 640px)
+@media only screen and (max-width: 780px)
 {
+  .myface{
+    margin:3rem auto;
+  }
+  header{
+    flex-direction: column;
+  }
   .wrapper{
-      margin: 5px;
-      width: 100%;
-      height: 50rem;
+      margin:0 10px;
+      padding:0;
+  }
+  .headertext {
+      margin:0;
   }
   .contacts {
     margin: 0 7px;
   }
-
+h1.title{
+    font-size:26px;
+  }
+  img.myface{
+    margin-top:3rem;
+  }
+p.contacts{
+  margin-bottom: 10rem;
 }
+}
+
+@media only screen and (max-width: 400px)
+{
+  .myface{
+    margin:6rem auto;
+    width: 200px;
+    height: 200px;
+  }
+  .copy{
+    font-size:13px;
+  }
+  p.contacts{
+    font-size:13px;
+  }
+}
+
+
+/*TODO: finsih making media queries and put project images in the code
