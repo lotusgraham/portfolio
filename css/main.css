@@ -74,7 +74,7 @@ header{
 
 .title{
      font-family: 'Cabin';
-     font-size: 3rem;
+     font-size: 3.7rem;
      line-height: 100%;
      font-weight: 700;
      color: rgb(9,9,9);
@@ -195,10 +195,12 @@ p {
         font-size: 150%;
     }
 }*/
-
 @media only screen and (max-width: 780px)
 {
-  .myface{
+img{
+  height:100%;
+}
+  .avatarbox{
     margin:3rem auto;
   }
   header{
@@ -215,20 +217,31 @@ p {
     margin: 0 7px;
   }
 h1.title{
-    font-size:26px;
-    display:inline;
+    font-size:2rem;
   }
-  img.myface{
-    margin-top:3rem;
-  }
+
 p.contacts{
   margin-bottom: 10rem;
+}
+.piece{
+margin-bottom: 4rem;}
+.copy {
+  font-size:15px;
+
+  }
+
+  p.contacts{
+  font-size:15px;
+  margin-top: 4rem;
 }
 }
 
 @media only screen and (max-width: 400px)
 {
-  .myface{
+  .title{
+    margin-top:3rem;
+  }
+  .myface .avatarbox{
     margin:6rem auto;
     width: 200px;
     height: 200px;
@@ -240,6 +253,3 @@ p.contacts{
     font-size:13px;
   }
 }
-
-
-/*TODO: finsih making media queries and put project images in the code
