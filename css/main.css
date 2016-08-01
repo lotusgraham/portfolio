@@ -18,7 +18,7 @@ a:link {
     text-decoration: none;
 }
 a:visited {
-    color: violet;
+    color: #4787ff;
     background-color: transparent;
     text-decoration: none;
 }
@@ -28,7 +28,7 @@ a:hover {
     text-decoration: underline;
 }
 a:active {
-    color: cyan;
+    color: #47ffbf;
     background-color: transparent;
     text-decoration: underline;
 }
