@@ -128,7 +128,7 @@ button:focus {
 }
 
 button:hover {
-  background-color: #757575;
+  background-color: #9E9E9E;
   text-shadow: -1px 1px #27496d;
 }
 button:active {
@@ -271,16 +271,23 @@ margin-bottom: 4rem;}
 }
 }
 
-@media only screen and (max-width: 400px)
+@media only screen and (max-width: 450px)
 {
-  .title{
-    margin-top:3rem;
+  .hey{
+    margin-top:2rem;
   }
-  .myface .avatarbox{
-    margin:6rem auto;
-    width: 200px;
+.avatarbox{
+    margin:3rem auto;
+    width: 220px;
     height: 200px;
   }
+
+.myface{
+  margin:0 auto 3rem auto;
+  width: 200px;
+  height: 200px;
+}
+
   .copy{
     font-size:13px;
   }
