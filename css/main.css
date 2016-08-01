@@ -118,9 +118,11 @@ button {
   box-shadow: none;
   border-radius: 0;
   color: #fff;
-  background-color: #6347ff;
+  background-color: #a8aa9c;
   text-shadow: -1px 1px #417cb8;
   border: none;
+  border-radius: 3px;
+
 }
 
 button:focus {
@@ -128,11 +130,11 @@ button:focus {
 }
 
 button:hover {
-  background-color: #9E9E9E;
+  background-color: #96988b;
   text-shadow: -1px 1px #27496d;
 }
 button:active {
-  background-color: #47ff63;
+  background-color: #86887c;
   text-shadow: -1px 1px #193047;
 }
 
