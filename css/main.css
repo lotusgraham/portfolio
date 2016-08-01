@@ -27,10 +27,32 @@ a:hover {
     background-color: transparent;
     text-decoration: underline;
 }
+
 a:active {
     color: #47ffbf;
     background-color: transparent;
     text-decoration: underline;
+}
+
+.email:link {
+    color: #4787ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+.email:visited {
+    color: #4787ff;
+    background-color: transparent;
+    text-decoration: none;
+}
+.email:hover {
+    color: #47ffbf;
+    background-color: transparent;
+    text-decoration: none;
+}
+.email:active {
+    color: #47ffbf;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 header{
@@ -137,6 +159,49 @@ button:active {
   background-color: #86887c;
   text-shadow: -1px 1px #193047;
 }
+
+
+
+.email {
+  box-sizing: border-box;
+  width: 250px;
+  height: 70px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 22px;
+  border: 3px solid #4787ff;
+  color: #4787ff;
+  line-height: 64px;
+  background: none;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 70px;
+  padding: 15px 30px;
+}
+
+.email:hover {
+  box-sizing: border-box;
+  width: 250px;
+  height: 70px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 22px;
+  border: 3px solid #47ffbf;
+  color: #47ffbf;
+  line-height: 64px;
+  background: none;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 70px;
+  padding: 15px 30px;
+}
+
 
 .tech{
   font-size: 19px;
