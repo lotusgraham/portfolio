@@ -218,6 +218,11 @@ p {
   margin-bottom: 20px;
 }
 
+.desc{
+  text-align: center;
+  margin-left: 10px;
+   text-shadow: -1px 1px #417cb8;
+}
 /*@media only screen and (max-width: 901px)
 {
     .column {
